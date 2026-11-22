@@ -1,4 +1,4 @@
-# Droguería El Nuevo Edén · Prototipo web
+# Droguería El Nuevo Edén - Prototipo web
 
 **Proyecto de grado – Fase 4 | Ingeniería de Sistemas, UNAD**  
 **Caso de estudio:** Droguería El Nuevo Edén, Magangué (Bolívar).
