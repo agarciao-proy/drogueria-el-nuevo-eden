@@ -11,8 +11,8 @@ Demostrar el flujo de gestión de productos, lotes, existencias, vencimientos y 
 
 | Perfil de demostración | Recorrido |
 |---|---|
-| Administración | Ingreso → productos → lotes y existencias → vencimientos y alertas → reportes. |
-| Ventas y Dispensación | Ingreso → consultar existencia → registrar venta → confirmar → consultar el saldo. |
+| Administración | Ingreso → productos → Lotes y movimientos → existencias → vencimientos → registrar venta → alertas → reportes → Usuarios. |
+| Ventas y Dispensación | Ingreso → consultar existencia → vencimientos → registrar venta → confirmar → consultar ventas → alertas. |
 
 Estos recorridos describen el alcance esperado. La matriz de pruebas permite registrar cuáles se comprobaron en la versión publicada.
 
