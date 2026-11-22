@@ -7,11 +7,6 @@
 
 Demostrar el flujo de gestión de productos, lotes, existencias, vencimientos y ventas, así como la consulta de alertas y reportes operativos en pesos colombianos (COP).
 
-## Cómo abrir la demostración
-
-- **En línea:** abrir la URL de GitHub Pages que aparece en **Settings → Pages** del repositorio.
-- **En local:** abrir `index.html` en el navegador. Si el HTML carga datos o módulos que requieren servidor HTTP, ejecutar `python -m http.server 8000` en la carpeta del proyecto y abrir `http://localhost:8000`.
-
 ## Recorridos propuestos
 
 | Perfil de demostración | Recorrido |
