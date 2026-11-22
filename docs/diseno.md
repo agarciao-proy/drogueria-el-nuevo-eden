@@ -24,7 +24,7 @@ El diagrama documenta el diseño del sistema.
 # Modelo entidad–relación — Droguería El Nuevo Edén
 
 **Proyecto:** Sistema web de inventarios y ventas · Magangué, Bolívar  
-**Alcance:** Diseño lógico del MVP que sirve de referencia para el prototipo en Figma y para una implementación con base de datos.
+**Alcance:** Diseño lógico del MVP que sirve de referencia para el prototipo web en HTML y para una implementación con base de datos.
 
 ## Diagrama
 
@@ -102,4 +102,5 @@ erDiagram
 | **Vencimientos y alertas** | Se prioriza el lote apto más próximo a vencer (FEFO). Las alertas se calculan por fecha de vencimiento y por saldo disponible inferior al mínimo del producto. No se ofrece para venta un lote vencido o no apto. |
 | **Reportes en COP** | El importe de cada detalle es `cantidad × precio_unitario_cop`. El total de la venta suma sus detalles. Los reportes aplican un rango de fechas y usan el precio guardado en cada detalle, no el precio vigente del catálogo. |
 
-Los **saldos, alertas y reportes** se obtienen de los registros anteriores; no requieren tablas propias en este alcance. El diagrama describe el diseño: la navegación en Figma no acredita autenticación, persistencia ni aplicación real de permisos.
+Los **saldos, alertas y reportes** se obtienen de los registros anteriores; no requieren tablas propias en este alcance. El diagrama documenta el diseño de la base de datos. La autenticación, la persistencia y los permisos por rol se verifican aparte mediante pruebas de la implementación.
+
